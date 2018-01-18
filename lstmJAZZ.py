@@ -90,4 +90,4 @@ for i in range(FINAL_MIDI_LENGTH):
     result = pitchnames[resultIndex]
     Y_Predction.append(result)
 
-    pattern = numpy.append(pattern, )
+    pattern = numpy.append(pattern, resultIndex)
